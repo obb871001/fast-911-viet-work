@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import Footer from "./Footer";
 import Header from "./Header";
 
 const Wrap = ({ children }) => {
@@ -6,6 +6,7 @@ const Wrap = ({ children }) => {
     <main className="pt-[112px]">
       <Header />
       {children}
+      <Footer />
     </main>
   );
 };

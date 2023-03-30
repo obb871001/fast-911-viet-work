@@ -10,3 +10,23 @@ body {
   word-spacing: normal;
   overflow-x: hidden;
 }
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.animated-move-right {
+  animation: move-right 2s linear infinite;
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+.text-myself-shadow {
+  text-shadow: 0 4px 4px #828282;
+}

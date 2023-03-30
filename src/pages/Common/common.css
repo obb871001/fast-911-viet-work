@@ -12,3 +12,13 @@
   left: 0;
   width: 100%;
 }
+
+.show-header-bottom::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  width: 100%;
+  border-bottom: 2px solid #ff6600;
+  transition: width 0.3s;
+}

@@ -6,7 +6,7 @@ import { AiFillSound } from "react-icons/ai";
 const MarqueeComponent = () => {
   return (
     <section
-      className={`lg:w-[1000px] md:w-[757px]  h-[50px] pr-[50px] overflow-x-hidden mx-auto relative bg-no-repeat cursor-pointer`}
+      className={`lg:w-[1000px] md:w-[757px] h-[50px] pr-[50px] overflow-x-hidden mx-auto relative bg-no-repeat cursor-pointer`}
       style={{
         backgroundImage: `url(${MarqueeBg})`,
         backgroundSize: "100% 100%",
